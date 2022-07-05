@@ -1,0 +1,101 @@
+/*  Header  */
+header {
+    margin-bottom: 55px;
+}
+
+header ul li:last-child a {
+    color: var(--green-01);
+}
+
+/*  Main  */
+main {
+    width: 1110px;
+}
+
+.reta {
+    width: auto;
+    height: 1px;
+    background-color: var(--gray-01);
+    opacity: 0.15;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section h2 {
+    color: var(--gray-01);
+}
+
+.infos {
+    margin: 50px 0;
+}
+
+.apresentacao {
+    width: 635px;
+}
+
+.apresentacao p {
+    margin-bottom: 55px;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--gray-01);
+    opacity: 0.8;
+}
+
+.apresentacao ul {
+    width: 105px;
+}
+
+.contato-form {
+    margin: 50px 0 110px;
+}
+
+.formulario {
+    width: 635px;
+}
+
+.formulario label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: var(--gray-01);
+    opacity: 0.8;
+}
+
+.formulario input, textarea {
+    margin-bottom: 25px;
+    background-color: #33323d1a;
+    border: none;
+}
+
+.formulario input {
+    height: 50px
+}
+
+.formulario textarea {
+    height: 100px;
+    resize: none;
+}
+
+.formulario a {
+    width: 200px;
+    padding: 15px 25px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white-00);
+    background-color: var(--blue-01);
+}
+
+.formulario a:hover {
+    color: var(--white-00);
+    background-color: var(--green-01);
+}
+
+/*  Footer  */

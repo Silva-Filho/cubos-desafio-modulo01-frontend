@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-00: #FFF;
+    --white-01: #FAFAFA;
+    --gray-01: #33323D;
+    --green-01: #5FB4A2;
+    --blue-01: #203A4C;
+    --black-01: #0000001a;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    background-color: var(--white-01);
+    font-family: 'Public Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 42px;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.container {
+    margin-top: 65px;
+    width: 1110px;
+}
+
+/*  Header  */
+header ul {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header ul li + li {
+    margin-left: 45px;
+}
+
+header ul li a {
+    color: var(--gray-01);
+}
+
+/*  Main  */
+
+/*  Footer  */
+.footer {
+    margin-top: 150px;
+}
+
+.contato {
+    margin: 0 auto 150px;
+    width: 1110px;
+}
+
+.contato h2 {
+    width: 365px;
+    color: var(--gray-01);
+}
+
+.contato a {
+    padding: 15px 50px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gray-01);
+    border: 1px solid var(--gray-01);
+}
+
+.contato a:hover {
+    color: var(--white-01);
+    background-color: var(--gray-01);
+}
+
+.rodape {    
+    padding: 0 165px;    
+    background-color: var(--gray-01);
+}
+
+.rodape-container {
+    width: 1110px;
+    padding: 25px 0;
+}
+
+.lado-esquerdo {
+    width: 420px;
+}
+
+.lado-esquerdo li {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.lado-esquerdo li + li {
+    margin-left: 45px;
+}
+
+.lado-esquerdo a {
+    color: var(--white-01);
+}
+
+.lado-direito li + li {
+    margin-left: 15px;
+}
+
+

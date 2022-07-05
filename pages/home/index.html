@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <link rel = "preconnect" href = "https://fonts.googleapis.com" />
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin />
+
+        <meta charset = "UTF-8" />
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+
+        <title>Desafio 01 de Front-end - Homepage.</title>
+
+        <link href = "https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Public+Sans&display=swap" rel = "stylesheet" />
+        <link rel = "stylesheet" href = "../../styles/global.css" />
+        <link rel = "stylesheet" href = "style.css" />
+    </head>
+
+    <body class="flex flex-column items-center" >
+        <div class = "container">
+            <header class="flex justify-between items-center" >
+                <img src = "../../assets/logo-dark.svg" alt = "logo" />
+
+                <nav>
+                    <ul class="flex justify-between" >
+                        <li>
+                            <a href = "#" >
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href = "../portfolio/index.html" >
+                                Portfolio
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href = "../contato/index.html" >
+                                Contato
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <main>
+                <section class = "flex flex-column hero" >
+                    <div class = "apresentacao">
+                        <h1>Olá, me chamo Alex Spencer e eu amo construir websites lindos.</h1>
+                                                
+                        <a class = "flex items-center" href = "#sobre-mim">                            
+                            <img src = "../../assets/icons/down-arrows.svg" alt = "seta para baixo" />
+                            
+                            Sobre mim
+                        </a>
+                    </div>
+                </section>
+
+                <section class = "flex justify-between items-center sobre-mim" id = "sobre-mim">
+                    <img src = "../../assets/home/image-homepage-profile.jpg" alt = "Foto de perfil" />
+
+                    <div class = "flex flex-column justify-between coluna-direita">
+                        <div class = "reta"></div>
+
+                        <div class = "sobre-mim-infos">
+                            <h2>Sobre mim</h2>
+
+                            <p>
+                                Sou um desenvolvedor front-end júnior 
+                                procurando por uma oportunidade. 
+                                Eu foco em escrever HTML acessível, 
+                                usando práticas modernas de CSS e 
+                                escrevendo um JavaScript limpo. 
+                                Quando estou escrevendo código JavaScript, 
+                                na maioria das vezes estou usando React, 
+                                mas posso me adapta para qualquer ferramenta 
+                                se necessário. Moro em Londres, UK, 
+                                mas também seria feliz trabalhando remotamente e 
+                                tenho experiência em times remotos. 
+                                Quando não estou codando, 
+                                poderá me achar fora de casa. 
+                                Eu adoro estar próximo a natureza seja para 
+                                uma caminhada, corrida ou ciclismo. 
+                                Eu amaria se você desse uma olhada no meu trabalho.
+                            </p>                            
+                        </div>
+
+                        <a href = "../portfolio/index.html" >
+                            Ir para o portfolio
+                        </a>
+
+                        <div class = "reta"></div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <footer class="footer" >
+            <div class = "flex justify-between items-center contato">
+                <h2>Interessado em fazer projetos comigo?</h2>
+
+                <a href = "../contato/index.html" >
+                    Contato
+                </a>
+            </div>
+            
+            <div class = "rodape">
+                <div class = "flex justify-between items-center rodape-container">
+                    <div class = "flex justify-between items-center lado-esquerdo">
+                        <img src = "../../assets/logo-light.svg" alt = "logo" />
+
+                        <nav>
+                            <ul class="flex items-center" >
+                                <li>
+                                    <a href = "#" >
+                                        Home
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href = "../portfolio/index.html" >
+                                        Portfolio
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href = "../contato/index.html" >
+                                        Contato
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class = "lado-direito">
+                        <ul class="flex items-center" >
+                            <li>
+                                <a href = "https://github.com/" >
+                                    <img src = "../../assets/icons/github-light.svg" alt = "Ícone do Github" />
+                                </a>                                
+                            </li>
+
+                            <li>
+                                <a href = "https://www.instagram.com/" >
+                                    <img src = "../../assets/icons/twitter-light.svg" alt = "Ícone do Twitter" />
+                                </a>                                
+                            </li>
+
+                            <li>
+                                <a href = "https://linkedin.com/" >
+                                    <img src = "../../assets/icons/linkedin-light.svg" alt = "Ícone do LinkedIn" />
+                                </a>                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
