@@ -26,17 +26,12 @@ header ul li:first-child a {
 
 .apresentacao h1 {
     margin: 55px 25px;
-    color: var(--gray-01);
 }
 
 .apresentacao a {
     width: 200px;
     height: 50px;
     justify-content: flex-start;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     color: var(--white-01);
     background-color: var(--blue-01);
     box-shadow: inset 50px 0 var(--black-01);
@@ -67,30 +62,15 @@ header ul li:first-child a {
 
 .reta {
     width: 430px;
-    height: 1px;
-    background-color: var(--gray-01);
-    opacity: 0.15;
 }
 
 .sobre-mim-infos h2 {
     margin-bottom: 30px;
-    color: var(--gray-01);
-}
-
-.sobre-mim-infos p {
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--gray-01);
-    opacity: 0.8;
 }
 
 .coluna-direita a {
     align-self: center;
     padding: 15px 30px;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     color: var(--gray-01);
     border: 1px solid var(--gray-01)
 }

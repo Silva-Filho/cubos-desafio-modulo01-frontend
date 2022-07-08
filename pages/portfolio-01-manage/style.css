@@ -14,7 +14,7 @@ header ul li:nth-child(2) a {
 }
 
 .principal {
-    width: 1210px;
+    width: 1110px;
 }
 
 .apresentacao {
@@ -24,22 +24,14 @@ header ul li:nth-child(2) a {
 .reta {
     margin-bottom: 50px;
     width: 350px;
-    height: 1px;
-    background-color: var(--gray-01);
-    opacity: 0.15;
 }
 
 .apresentacao h2 {
     margin-bottom: 30px;
-    color: var(--gray-01);
 }
 
 .apresentacao p {
     margin-bottom: 55px;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--gray-01);
-    opacity: 0.8;
 }
 
 .apresentacao span {
@@ -55,10 +47,6 @@ header ul li:nth-child(2) a {
     margin: 15px 0 50px;
     width: 180px;
     padding: 15px 60px;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     color: var(--gray-01);
     border: 1px solid var(--gray-01);
 }
@@ -77,15 +65,11 @@ header ul li:nth-child(2) a {
     margin-bottom: 30px;
     font-style: normal;
     line-height: 42px;
-    color: var(--gray-01);
 }
 
 .infos p {
     margin-bottom: 40px;
     font-size: 15px;
-    line-height: 30px;
-    color: var(--gray-01);
-    opacity: 0.8;
 }
 
 .infos span {
@@ -106,13 +90,12 @@ header ul li:nth-child(2) a {
 
 .reta-rodape {
     width: 1110px;
-    height: 1px;
-    background-color: var(--gray-01);
-    opacity: 0.15;
 }
 
 .clicar-projeto {
     width: 165px;
+    letter-spacing: normal;
+    text-transform: none;
 }
 
 .para-direita {
@@ -123,7 +106,6 @@ header ul li:nth-child(2) a {
 .clicar h3 {
     font-style: normal;
     font-weight: normal;
-    color: var(--gray-01);
 }
 
 .clicar span {

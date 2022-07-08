@@ -32,30 +32,18 @@ section img {
 
 .reta {
     width: 350px;
-    height: 1px;
-    background-color: var(--gray-01);
-    opacity: 0.15;
 }
 
 .infos-portfolio h2 {
     margin-bottom: 30px;
-    color: var(--gray-01);
 }
 
 .infos-portfolio p {
     margin-bottom: 55px;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--gray-01);
-    opacity: 0.8;
 }
 
 .infos-portfolio a {
     padding: 15px 40px;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     color: var(--gray-01);
     border: 1px solid var(--gray-01);
 }

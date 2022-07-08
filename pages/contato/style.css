@@ -14,19 +14,6 @@ main {
 
 .reta {
     width: auto;
-    height: 1px;
-    background-color: var(--gray-01);
-    opacity: 0.15;
-}
-
-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-section h2 {
-    color: var(--gray-01);
 }
 
 .infos {
@@ -39,10 +26,6 @@ section h2 {
 
 .apresentacao p {
     margin-bottom: 55px;
-    font-size: 16px;
-    line-height: 30px;
-    color: var(--gray-01);
-    opacity: 0.8;
 }
 
 .apresentacao ul {
@@ -84,11 +67,7 @@ section h2 {
 .formulario a {
     width: 200px;
     padding: 15px 25px;
-    font-size: 12px;
-    line-height: 14px;
     text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     color: var(--white-00);
     background-color: var(--blue-01);
 }
